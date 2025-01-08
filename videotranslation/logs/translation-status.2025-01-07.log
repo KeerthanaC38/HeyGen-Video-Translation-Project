@@ -1,0 +1,1348 @@
+2025-01-07 12:52:23 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 20376 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 12:52:23 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 12:52:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-07 12:52:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-07 12:52:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 12:52:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 12:52:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 12:52:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 12:52:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 12:52:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2629 ms
+2025-01-07 12:52:27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 12:52:27 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 12:52:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 12:52:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 12:52:27 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 5.387 seconds (process running for 7.136)
+2025-01-07 12:52:28 [RMI TCP Connection(4)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07 12:52:28 [RMI TCP Connection(4)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-07 12:52:28 [RMI TCP Connection(4)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-07 12:53:28 [http-nio-8080-exec-2] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:53:35 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "null"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:53:41 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "null"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:53:48 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "null"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:53:53 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.time.temporal.Temporal.until(java.time.temporal.Temporal, java.time.temporal.TemporalUnit)" because "startInclusive" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.time.temporal.Temporal.until(java.time.temporal.Temporal, java.time.temporal.TemporalUnit)" because "startInclusive" is null
+	at java.base/java.time.Duration.between(Duration.java:490)
+	at com.heygen.videotranslation.service.StatusService.getBulkStatus(StatusService.java:16)
+	at com.heygen.videotranslation.controller.StatusController.lambda$getBulkStatus$0(StatusController.java:54)
+	at java.base/java.util.concurrent.ConcurrentHashMap.forEach(ConcurrentHashMap.java:1603)
+	at com.heygen.videotranslation.controller.StatusController.getBulkStatus(StatusController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-01-07 12:57:11 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-07 12:57:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-07 12:57:16 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 19864 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 12:57:16 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 12:57:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-07 12:57:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-07 12:57:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 12:57:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 12:57:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 12:57:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 12:57:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 12:57:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2754 ms
+2025-01-07 12:57:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 12:57:20 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 12:57:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 12:57:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 12:57:20 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 5.567 seconds (process running for 6.393)
+2025-01-07 12:57:21 [RMI TCP Connection(3)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07 12:57:21 [RMI TCP Connection(3)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-07 12:57:21 [RMI TCP Connection(3)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-01-07 12:57:33 [http-nio-8080-exec-2] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:57:40 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:57:46 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:57:53 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 12:57:54 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.time.temporal.Temporal.until(java.time.temporal.Temporal, java.time.temporal.TemporalUnit)" because "startInclusive" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.time.temporal.Temporal.until(java.time.temporal.Temporal, java.time.temporal.TemporalUnit)" because "startInclusive" is null
+	at java.base/java.time.Duration.between(Duration.java:490)
+	at com.heygen.videotranslation.service.StatusService.getBulkStatus(StatusService.java:16)
+	at com.heygen.videotranslation.controller.StatusController.lambda$getBulkStatus$0(StatusController.java:54)
+	at java.base/java.util.concurrent.ConcurrentHashMap.forEach(ConcurrentHashMap.java:1603)
+	at com.heygen.videotranslation.controller.StatusController.getBulkStatus(StatusController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-01-07 12:59:21 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-07 12:59:21 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-07 12:59:28 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 2384 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 12:59:28 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 12:59:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-07 12:59:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-07 12:59:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 12:59:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 12:59:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 12:59:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 12:59:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 12:59:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2361 ms
+2025-01-07 12:59:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 12:59:31 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 12:59:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 12:59:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 12:59:31 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 4.956 seconds (process running for 6.575)
+2025-01-07 12:59:32 [RMI TCP Connection(1)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07 12:59:32 [RMI TCP Connection(1)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-07 12:59:32 [RMI TCP Connection(1)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-07 13:34:29 [http-nio-8080-exec-3] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:34:35 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:34:42 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:34:49 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:34:49 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:34:51 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.time.temporal.Temporal.until(java.time.temporal.Temporal, java.time.temporal.TemporalUnit)" because "startInclusive" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.time.temporal.Temporal.until(java.time.temporal.Temporal, java.time.temporal.TemporalUnit)" because "startInclusive" is null
+	at java.base/java.time.Duration.between(Duration.java:490)
+	at com.heygen.videotranslation.service.StatusService.getBulkStatus(StatusService.java:16)
+	at com.heygen.videotranslation.controller.StatusController.lambda$getBulkStatus$0(StatusController.java:54)
+	at java.base/java.util.concurrent.ConcurrentHashMap.forEach(ConcurrentHashMap.java:1603)
+	at com.heygen.videotranslation.controller.StatusController.getBulkStatus(StatusController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-01-07 13:40:46 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-01-07 13:40:46 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-07 13:40:46 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:40:46 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-07 13:40:46 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:40:47 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 2384 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 13:40:47 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 13:40:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 13:40:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:40:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 13:40:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 13:40:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 13:40:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 490 ms
+2025-01-07 13:40:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statusController' defined in file [C:\Users\chand\OneDrive\Documents\videotranslation\target\classes\com\heygen\videotranslation\controller\StatusController.class]: Post-processing of merged bean definition failed
+2025-01-07 13:40:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-07 13:40:47 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-07 13:40:47 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statusController' defined in file [C:\Users\chand\OneDrive\Documents\videotranslation\target\classes\com\heygen\videotranslation\controller\StatusController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.heygen.videotranslation.VideotranslationApplication.main(VideotranslationApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.heygen.videotranslation.controller.StatusController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2936aca0]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:757)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:432)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:413)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:313)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/heygen/videotranslation/service/StatusService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:752)
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.heygen.videotranslation.service.StatusService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 32 common frames omitted
+2025-01-07 13:41:26 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 20844 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 13:41:26 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 13:41:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-07 13:41:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-07 13:41:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 13:41:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:41:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 13:41:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 13:41:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 13:41:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2746 ms
+2025-01-07 13:41:30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 13:41:30 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 13:41:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:41:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 13:41:30 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 5.791 seconds (process running for 7.939)
+2025-01-07 13:41:31 [RMI TCP Connection(3)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07 13:41:31 [RMI TCP Connection(3)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-07 13:41:31 [RMI TCP Connection(3)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-07 13:41:46 [http-nio-8080-exec-2] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:41:53 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:00 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:09 [http-nio-8080-exec-6] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:13 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:20 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:20 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:33 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:33 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:33 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "46s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "46s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:40 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:40 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:40 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "53s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "53s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:46 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:46 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:46 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:46 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:46 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:46 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:42:53 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:53 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:53 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:42:53 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "66s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:00 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:00 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:00 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:00 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "73s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:06 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:06 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:06 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "80s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:06 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:06 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:06 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "80s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:13 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:13 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:13 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:13 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie4.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:20 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:20 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:20 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:20 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie4.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:20 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie4.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie1.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie2.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie3.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] ERROR c.h.v.service.StatusService - Start time for video 'julie4.mp4' is missing in videoStartTimeMap.
+2025-01-07 13:43:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "error", message: "Start time not found", percentage: "0", elapsedTime: "N/A", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:44:35 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-07 13:44:35 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-07 13:44:35 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:44:35 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-07 13:44:35 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:44:35 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 20844 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 13:44:35 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 13:44:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 13:44:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:44:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 13:44:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 13:44:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 13:44:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 355 ms
+2025-01-07 13:44:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 13:44:36 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 13:44:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:44:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 13:44:36 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 0.624 seconds (process running for 193.795)
+2025-01-07 13:44:36 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-01-07 13:50:24 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-07 13:50:24 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-07 13:50:29 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 14072 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 13:50:29 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 13:50:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-07 13:50:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-07 13:50:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 13:50:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:50:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 13:50:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 13:50:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 13:50:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1219 ms
+2025-01-07 13:50:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 13:50:31 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 13:50:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:50:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 13:50:31 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 2.599 seconds (process running for 3.405)
+2025-01-07 13:50:32 [RMI TCP Connection(1)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07 13:50:32 [RMI TCP Connection(1)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-07 13:50:32 [RMI TCP Connection(1)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-01-07 13:50:50 [http-nio-8080-exec-2] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:50:57 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:04 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:10 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:10 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:12 [http-nio-8080-exec-3] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:17 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:17 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:23 [http-nio-8080-exec-6] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:24 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:24 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:29 [http-nio-8080-exec-8] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:30 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:30 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:30 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:30 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "40s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:32 [http-nio-8080-exec-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:32 [http-nio-8080-exec-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:37 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:37 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:37 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "46s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "46s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:41 [http-nio-8080-exec-9] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:41 [http-nio-8080-exec-9] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:42 [http-nio-8080-exec-10] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:42 [http-nio-8080-exec-10] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:44 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:44 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:44 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "53s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "53s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:44 [http-nio-8080-exec-1] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:44 [http-nio-8080-exec-1] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:45 [http-nio-8080-exec-2] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:45 [http-nio-8080-exec-2] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:47 [http-nio-8080-exec-5] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:47 [http-nio-8080-exec-5] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:48 [http-nio-8080-exec-4] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:48 [http-nio-8080-exec-4] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:49 [http-nio-8080-exec-3] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:49 [http-nio-8080-exec-3] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:50 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:50 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:50 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:50 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:50 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:50 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "60s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:51:51 [http-nio-8080-exec-6] INFO  c.h.v.service.StatusService - Processing complete for video julie3.mp4
+2025-01-07 13:51:51 [http-nio-8080-exec-6] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:51 [http-nio-8080-exec-6] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:57 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:51:57 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:51:57 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie3.mp4
+2025-01-07 13:51:57 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "66s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:52:04 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:52:04 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:52:04 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie3.mp4
+2025-01-07 13:52:04 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "73s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie3.mp4
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "80s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie3.mp4
+2025-01-07 13:52:10 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "80s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:52:17 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie1.mp4
+2025-01-07 13:52:17 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie2.mp4
+2025-01-07 13:52:17 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie3.mp4
+2025-01-07 13:52:17 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video julie4.mp4
+2025-01-07 13:52:17 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:52:20 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-07 13:52:20 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-07 13:52:23 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 21376 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-07 13:52:23 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-07 13:52:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-07 13:52:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-07 13:52:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-07 13:52:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:52:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-07 13:52:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07 13:52:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-07 13:52:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1450 ms
+2025-01-07 13:52:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-07 13:52:25 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-07 13:52:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-07 13:52:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-07 13:52:25 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 2.994 seconds (process running for 3.742)
+2025-01-07 13:52:26 [RMI TCP Connection(2)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07 13:52:26 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-07 13:52:26 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-07 13:52:53 [http-nio-8080-exec-1] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:52:59 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:19 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:53:19 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "26s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:26 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:53:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "33s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:30 [http-nio-8080-exec-9] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "0s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:33 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "2s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "2s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:33 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "2s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "2s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "2s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:37 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:37 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "6s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "20", elapsedTime: "4s", remainingTime: "16s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:39 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:39 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "8s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "40", elapsedTime: "8s", remainingTime: "12s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:44 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:44 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "13s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "55", elapsedTime: "11s", remainingTime: "9s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:46 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:46 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "15s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "75", elapsedTime: "15s", remainingTime: "5s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:50 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:50 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "17s", remainingTime: "3s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:50 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:50 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "20s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "17s", remainingTime: "3s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:53 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:53 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:53:53 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:53:53 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:53:53 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:53:53 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:53:57 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:53:57 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:53:57 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "20", elapsedTime: "4s", remainingTime: "16s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:53:59 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:53:59 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:53:59 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "40", elapsedTime: "8s", remainingTime: "12s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:04 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:54:04 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:54:04 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "55", elapsedTime: "11s", remainingTime: "9s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:06 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:54:06 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:54:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "75", elapsedTime: "15s", remainingTime: "5s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:10 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:54:10 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:54:10 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "17s", remainingTime: "3s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:10 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:54:10 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:54:10 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "17s", remainingTime: "3s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:13 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:13 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:54:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:13 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:13 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video4.mp4
+2025-01-07 13:54:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "10", elapsedTime: "2s", remainingTime: "18s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+
+2025-01-07 13:54:17 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:17 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:17 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "20", elapsedTime: "4s", remainingTime: "16s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:19 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:19 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:19 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "40", elapsedTime: "8s", remainingTime: "12s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "30", elapsedTime: "6s", remainingTime: "14s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:24 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:24 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:24 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "55", elapsedTime: "11s", remainingTime: "9s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:26 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:26 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "75", elapsedTime: "15s", remainingTime: "5s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "13s", remainingTime: "7s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:30 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:30 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:30 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "17s", remainingTime: "3s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:30 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:30 [Thread-8] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:30 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "17s", remainingTime: "3s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "N/A"
+============================================================
+
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video1.mp4
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video2.mp4
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.service.StatusService - Processing complete for video video3.mp4
+2025-01-07 13:54:33 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "Completed", message: "Successfully processed", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "20s", remainingTime: "0s", totalTime: "20s"
+============================================================
+

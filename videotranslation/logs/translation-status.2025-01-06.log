@@ -1,0 +1,1372 @@
+2025-01-06 20:31:29 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-06 20:31:29 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-06 20:38:29 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 15860 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-06 20:38:29 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-06 20:38:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-06 20:38:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-06 20:38:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-06 20:38:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-06 20:38:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-06 20:38:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-06 20:38:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-06 20:38:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1407 ms
+2025-01-06 20:38:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-06 20:38:31 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-06 20:38:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-06 20:38:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-06 20:38:31 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 2.9 seconds (process running for 3.743)
+2025-01-06 20:38:32 [RMI TCP Connection(2)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-06 20:38:32 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-06 20:38:32 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-06 20:39:00 [http-nio-8080-exec-3] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "29s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "29s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "29s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "29s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "29s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:03 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "32", elapsedTime: "32s", remainingTime: "6s", totalTime: "null"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "32s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "32s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "32s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "32s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:06 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "35", elapsedTime: "35s", remainingTime: "6s", totalTime: "null"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "35s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "35s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "35s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "35s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:10 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "39", elapsedTime: "39s", remainingTime: "6s", totalTime: "null"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:10 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "39s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "39s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:13 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "42s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "42", elapsedTime: "42s", remainingTime: "5s", totalTime: "null"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "42s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "42s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "42s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:16 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "45s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "45", elapsedTime: "45s", remainingTime: "5s", totalTime: "null"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "45s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "45s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "45s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:20 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "49s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "49", elapsedTime: "49s", remainingTime: "5s", totalTime: "null"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "49s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "49s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "49s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:20 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "49s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "49s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "49s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "49s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "49s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:23 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "52s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "52s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "52", elapsedTime: "52s", remainingTime: "4s", totalTime: "null"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "52s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "52s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:26 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "55s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "55s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "55", elapsedTime: "55s", remainingTime: "4s", totalTime: "null"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "55s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "55s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:30 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "59s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "59s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "pending", message: "Processing video, please wait.", percentage: "59", elapsedTime: "59s", remainingTime: "4s", totalTime: "null"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "59s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "59s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:30 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "59s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "59s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "59s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "59s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "59s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:33 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "62s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "62s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "62s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "62", elapsedTime: "62s", remainingTime: "3s", totalTime: "null"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "62s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:36 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "65s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "65s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "65s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "65", elapsedTime: "65s", remainingTime: "3s", totalTime: "null"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "65s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:40 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "69", elapsedTime: "69s", remainingTime: "3s", totalTime: "null"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "69s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:40 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "69s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "69s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 20:39:43 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "72s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "72s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "72s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "72s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "72", elapsedTime: "72s", remainingTime: "2s", totalTime: "null"
+============================================================
+
+2025-01-06 20:39:46 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "75s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "75s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "75s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "75s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "75", elapsedTime: "75s", remainingTime: "2s", totalTime: "null"
+============================================================
+
+2025-01-06 20:39:50 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "79", elapsedTime: "79s", remainingTime: "2s", totalTime: "null"
+============================================================
+
+2025-01-06 20:39:50 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "telugu", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "79s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 21:20:36 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-06 21:20:37 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-06 21:40:30 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 3884 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-06 21:40:30 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-06 21:40:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-06 21:40:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-06 21:40:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-06 21:40:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-06 21:40:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-06 21:40:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-06 21:40:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-06 21:40:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1658 ms
+2025-01-06 21:40:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-06 21:40:33 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-06 21:40:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-06 21:40:33 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-01-06 21:40:33 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-06 21:40:33 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-01-06 21:43:24 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 15612 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-06 21:43:24 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-06 21:43:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-06 21:43:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-06 21:43:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-06 21:43:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-06 21:43:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-06 21:43:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-06 21:43:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-06 21:43:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2025-01-06 21:43:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-06 21:43:26 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-06 21:43:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-06 21:43:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-06 21:43:26 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 2.441 seconds (process running for 3.235)
+2025-01-06 21:43:26 [RMI TCP Connection(4)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-06 21:43:26 [RMI TCP Connection(4)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-06 21:43:26 [RMI TCP Connection(4)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-06 21:43:39 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-06 21:43:39 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-06 23:24:40 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 10068 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-06 23:24:40 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-06 23:24:40 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-06 23:24:40 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-06 23:24:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-06 23:24:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-06 23:24:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-06 23:24:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-06 23:24:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-06 23:24:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3622 ms
+2025-01-06 23:24:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-06 23:24:45 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-06 23:24:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-06 23:24:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-06 23:24:45 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 7.765 seconds (process running for 12.234)
+2025-01-06 23:24:45 [RMI TCP Connection(2)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-06 23:24:45 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-06 23:24:45 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-01-06 23:25:59 [http-nio-8080-exec-1] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "75s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "75s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "75s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "75s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:02 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "78", elapsedTime: "78s", remainingTime: "2s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "78s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "78s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "78s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:05 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "81", elapsedTime: "81s", remainingTime: "1s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "81s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "81s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "81s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:09 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "85", elapsedTime: "85s", remainingTime: "1s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "85s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "85s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "85s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:09 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "85s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "85s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "85s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "85s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:12 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "88s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "88", elapsedTime: "88s", remainingTime: "1s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "88s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "88s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:15 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "91s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "91", elapsedTime: "91s", remainingTime: "0s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "91s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "91s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:19 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "95s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "95", elapsedTime: "95s", remainingTime: "0s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "95s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "95s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:19 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "95s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "95s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "95s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "95s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:22 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "98s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "98s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "98", elapsedTime: "98s", remainingTime: "0s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "98s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:25 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "101s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "101s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "101", elapsedTime: "101s", remainingTime: "0s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "101s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:29 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "105s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "105s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "105", elapsedTime: "105s", remainingTime: "0s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "105s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:29 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "105s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "105s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "105s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "105s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:26:32 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "108s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "108s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "108s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "108", elapsedTime: "108s", remainingTime: "0s", totalTime: "null"
+============================================================
+
+2025-01-06 23:26:35 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "111s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "111s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "111s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "111", elapsedTime: "111s", remainingTime: "-1s", totalTime: "null"
+============================================================
+
+2025-01-06 23:26:39 [Thread-7] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "115", elapsedTime: "115s", remainingTime: "-1s", totalTime: "null"
+============================================================
+
+2025-01-06 23:26:39 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "115s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:33:22 [http-nio-8080-exec-3] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "517s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "517s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "517s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "517s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:25 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "521", elapsedTime: "521s", remainingTime: "-42s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "521s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "521s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "521s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:28 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "524", elapsedTime: "524s", remainingTime: "-42s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "524s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "524s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "524s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:32 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "527", elapsedTime: "527s", remainingTime: "-42s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "527s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "527s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "527s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:32 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "527s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "527s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "527s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "527s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:35 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "531s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "531", elapsedTime: "531s", remainingTime: "-43s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "531s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "531s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:38 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "534s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "534", elapsedTime: "534s", remainingTime: "-43s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "534s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "534s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:42 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "537s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "537", elapsedTime: "537s", remainingTime: "-43s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "537s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "537s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:42 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "537s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "537s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "537s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "537s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:45 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "541s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "541s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "541", elapsedTime: "541s", remainingTime: "-44s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "541s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:48 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "544s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "544s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "544", elapsedTime: "544s", remainingTime: "-44s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "544s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:52 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "547s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "547s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "547", elapsedTime: "547s", remainingTime: "-44s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "547s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:52 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "547s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "547s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "547s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "547s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:33:55 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "551s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "551s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "551s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "551", elapsedTime: "551s", remainingTime: "-45s", totalTime: "null"
+============================================================
+
+2025-01-06 23:33:58 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "554s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "554s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "554s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "554", elapsedTime: "554s", remainingTime: "-45s", totalTime: "null"
+============================================================
+
+2025-01-06 23:34:02 [Thread-8] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "557", elapsedTime: "557s", remainingTime: "-45s", totalTime: "null"
+============================================================
+
+2025-01-06 23:34:02 [Thread-8] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "557s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:36:39 [http-nio-8080-exec-5] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "715s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "715s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "715s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "715s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:43 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "718", elapsedTime: "718s", remainingTime: "-61s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "718s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "718s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "718s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:46 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "722", elapsedTime: "722s", remainingTime: "-62s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "722s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "722s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "722s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:49 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "725", elapsedTime: "725s", remainingTime: "-62s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "725s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "725s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "725s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:49 [Thread-9] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "725s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "725s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "725s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "725s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:53 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "728s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "728", elapsedTime: "728s", remainingTime: "-62s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "728s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "728s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:56 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "732s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "732", elapsedTime: "732s", remainingTime: "-63s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "732s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "732s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:59 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "735s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "735", elapsedTime: "735s", remainingTime: "-63s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "735s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "735s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:36:59 [Thread-9] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "735s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "735s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "735s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "735s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:03 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "738s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "738s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "738", elapsedTime: "738s", remainingTime: "-63s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "738s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:06 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "742s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "742s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "742", elapsedTime: "742s", remainingTime: "-64s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "742s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:09 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "745s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "745s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "745", elapsedTime: "745s", remainingTime: "-64s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "745s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:09 [Thread-9] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "745s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "745s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "745s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "745s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:13 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "748s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "748s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "748s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "748", elapsedTime: "748s", remainingTime: "-64s", totalTime: "null"
+============================================================
+
+2025-01-06 23:37:16 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "752s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "752s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "752s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "752", elapsedTime: "752s", remainingTime: "-65s", totalTime: "null"
+============================================================
+
+2025-01-06 23:37:19 [Thread-9] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "755", elapsedTime: "755s", remainingTime: "-65s", totalTime: "null"
+============================================================
+
+2025-01-06 23:37:19 [Thread-9] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "755s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:37:28 [http-nio-8080-exec-8] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "763s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "763s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "763s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "763s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:31 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "767", elapsedTime: "767s", remainingTime: "-66s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "767s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "767s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "767s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:34 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "770", elapsedTime: "770s", remainingTime: "-67s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "770s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "770s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "770s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:38 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "772", elapsedTime: "773s", remainingTime: "-67s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "773s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "773s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "773s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:38 [Thread-10] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "773s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "773s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "773s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "773s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:41 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "777s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "777", elapsedTime: "777s", remainingTime: "-67s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "777s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "777s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:44 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "780s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "780", elapsedTime: "780s", remainingTime: "-68s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "780s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "780s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:48 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "783s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "783", elapsedTime: "783s", remainingTime: "-68s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "783s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "783s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:48 [Thread-10] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "783s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "783s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "783s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "783s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:51 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "787s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "787s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "787", elapsedTime: "787s", remainingTime: "-68s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "787s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:54 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "790s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "790s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "790", elapsedTime: "790s", remainingTime: "-69s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "790s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:55 [http-nio-8080-exec-9] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "791s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "791s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "791s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "791s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:37:58 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "793s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "793s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "793", elapsedTime: "793s", remainingTime: "-69s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "793", elapsedTime: "793s", remainingTime: "-69s", totalTime: "null"
+============================================================
+
+2025-01-06 23:37:58 [Thread-10] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "793s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "793s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "793s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "793", elapsedTime: "793s", remainingTime: "-69s", totalTime: "null"
+============================================================
+
+2025-01-06 23:37:59 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "795", elapsedTime: "795s", remainingTime: "-69s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "795s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "795s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "795", elapsedTime: "795s", remainingTime: "-69s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:01 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "796", elapsedTime: "797s", remainingTime: "-69s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "797s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "797s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "796", elapsedTime: "797s", remainingTime: "-69s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:02 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "798", elapsedTime: "798s", remainingTime: "-69s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "798s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "798s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "798", elapsedTime: "798s", remainingTime: "-69s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:04 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "800", elapsedTime: "800s", remainingTime: "-70s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "800s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "800s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "800", elapsedTime: "800s", remainingTime: "-70s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:05 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "801", elapsedTime: "801s", remainingTime: "-70s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "801s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "801s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "801", elapsedTime: "801s", remainingTime: "-70s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:05 [Thread-11] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "801", elapsedTime: "801s", remainingTime: "-70s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "801s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "801s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "801s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:08 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "803", elapsedTime: "803s", remainingTime: "-70s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "803", elapsedTime: "803s", remainingTime: "-70s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "803s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "803s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:08 [Thread-10] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "803s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "803", elapsedTime: "803s", remainingTime: "-70s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "803s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "803s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:09 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "805s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "805", elapsedTime: "805s", remainingTime: "-70s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "805", elapsedTime: "805s", remainingTime: "-70s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "805s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:11 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "807s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "806", elapsedTime: "807s", remainingTime: "-70s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "806", elapsedTime: "807s", remainingTime: "-70s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "807s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:12 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "808s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "808", elapsedTime: "808s", remainingTime: "-70s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "808", elapsedTime: "808s", remainingTime: "-70s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "808s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:14 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "810s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "810", elapsedTime: "810s", remainingTime: "-71s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "810", elapsedTime: "810s", remainingTime: "-71s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "810s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:15 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "811s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "811", elapsedTime: "811s", remainingTime: "-71s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "811", elapsedTime: "811s", remainingTime: "-71s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "811s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:15 [Thread-11] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "811s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "811s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "811", elapsedTime: "811s", remainingTime: "-71s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "811s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:38:18 [Thread-10] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "813s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "813s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "813", elapsedTime: "813s", remainingTime: "-71s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "813", elapsedTime: "813s", remainingTime: "-71s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:18 [Thread-10] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "813s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "813s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "813s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "813", elapsedTime: "813s", remainingTime: "-71s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:19 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "815s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "815s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "815s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "815", elapsedTime: "815s", remainingTime: "-71s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:22 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "818s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "818s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "818s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "818", elapsedTime: "818s", remainingTime: "-71s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:25 [Thread-11] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "821", elapsedTime: "821s", remainingTime: "-72s", totalTime: "null"
+============================================================
+
+2025-01-06 23:38:25 [Thread-11] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "821s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:39:09 [http-nio-8080-exec-1] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "865s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "865s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "865s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "865s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:13 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "868", elapsedTime: "868s", remainingTime: "-76s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "868s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "868s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "868s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:16 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "872", elapsedTime: "872s", remainingTime: "-77s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "872s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "872s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "872s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:19 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "875", elapsedTime: "875s", remainingTime: "-77s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "875s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "875s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "875s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:19 [Thread-12] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "875s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "875s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "875s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "875s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:23 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "878s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "878", elapsedTime: "878s", remainingTime: "-77s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "878s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "878s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:26 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "882s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "882", elapsedTime: "882s", remainingTime: "-78s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "882s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "882s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:29 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "885s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "885", elapsedTime: "885s", remainingTime: "-78s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "885s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "885s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:29 [Thread-12] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "885s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "885s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "885s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "885s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:33 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "888s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "888s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "888", elapsedTime: "888s", remainingTime: "-78s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "888s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:36 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "892s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "892s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "892", elapsedTime: "892s", remainingTime: "-79s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "892s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:39 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "895s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "895s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "895", elapsedTime: "895s", remainingTime: "-79s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "895s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:39 [Thread-12] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "895s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "895s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "895s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "895s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:39:43 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "898s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "898s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "898s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "898", elapsedTime: "898s", remainingTime: "-79s", totalTime: "null"
+============================================================
+
+2025-01-06 23:39:46 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "902s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "902s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "902s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "902", elapsedTime: "902s", remainingTime: "-80s", totalTime: "null"
+============================================================
+
+2025-01-06 23:39:49 [Thread-12] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "905", elapsedTime: "905s", remainingTime: "-80s", totalTime: "null"
+============================================================
+
+2025-01-06 23:39:49 [Thread-12] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "905s", remainingTime: "0s", totalTime: "10s"
+============================================================
+
+2025-01-06 23:41:42 [http-nio-8080-exec-3] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1018s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1018s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1018s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1018s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:41:45 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "1021", elapsedTime: "1021s", remainingTime: "-92s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1021s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1021s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1021s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:41:49 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "1024", elapsedTime: "1024s", remainingTime: "-92s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1024s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1024s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1024s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:41:52 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "pending", message: "Processing video, please wait.", percentage: "1028", elapsedTime: "1028s", remainingTime: "-92s", totalTime: "null"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1028s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1028s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1028s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:41:52 [Thread-13] INFO  c.h.v.controller.StatusController - 
+After completing video1.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1028s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1028s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1028s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1028s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:41:55 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1031s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "1031", elapsedTime: "1031s", remainingTime: "-93s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1031s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1031s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:41:59 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1034s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "1034", elapsedTime: "1034s", remainingTime: "-93s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1034s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1034s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:02 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1038s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "pending", message: "Processing video, please wait.", percentage: "1038", elapsedTime: "1038s", remainingTime: "-93s", totalTime: "null"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1038s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1038s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:02 [Thread-13] INFO  c.h.v.controller.StatusController - 
+After completing video2.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1038s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1038s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1038s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1038s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:05 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1041s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1041s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "1041", elapsedTime: "1041s", remainingTime: "-94s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1041s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:09 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1044s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1044s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "1044", elapsedTime: "1044s", remainingTime: "-94s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1044s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:12 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1048s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1048s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "pending", message: "Processing video, please wait.", percentage: "1048", elapsedTime: "1048s", remainingTime: "-94s", totalTime: "null"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1048s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:12 [Thread-13] INFO  c.h.v.controller.StatusController - 
+After completing video3.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1048s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1048s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1048s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1048s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-06 23:42:15 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 33% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1051s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1051s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1051s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "1051", elapsedTime: "1051s", remainingTime: "-95s", totalTime: "null"
+============================================================
+
+2025-01-06 23:42:19 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 66% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1054s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1054s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1054s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "1054", elapsedTime: "1054s", remainingTime: "-95s", totalTime: "null"
+============================================================
+
+2025-01-06 23:42:22 [Thread-13] INFO  c.h.v.controller.StatusController - 
+Processing 99% of video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "pending", message: "Processing video, please wait.", percentage: "1058", elapsedTime: "1058s", remainingTime: "-95s", totalTime: "null"
+============================================================
+
+2025-01-06 23:42:22 [Thread-13] INFO  c.h.v.controller.StatusController - 
+After completing video4.mp4
+====================VideoSet============================
+videoName: "video1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+videoName: "video2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+videoName: "video3.mp4", videoLanguage: "en-US", translateTo: "chinese", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+videoName: "video4.mp4", videoLanguage: "en-US", translateTo: "french", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1058s", remainingTime: "0s", totalTime: "10s"
+============================================================
+

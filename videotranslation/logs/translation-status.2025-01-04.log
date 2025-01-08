@@ -1,0 +1,78 @@
+2025-01-04 20:44:26 [restartedMain] INFO  c.h.v.VideotranslationApplication - Starting VideotranslationApplication using Java 17.0.12 with PID 21444 (C:\Users\chand\OneDrive\Documents\videotranslation\target\classes started by chand in C:\Users\chand\OneDrive\Documents\videotranslation)
+2025-01-04 20:44:26 [restartedMain] INFO  c.h.v.VideotranslationApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-04 20:44:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-04 20:44:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-04 20:44:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-01-04 20:44:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-04 20:44:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-04 20:44:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-04 20:44:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-04 20:44:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1850 ms
+2025-01-04 20:44:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-04 20:44:28 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-04 20:44:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-01-04 20:44:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-01-04 20:44:29 [restartedMain] INFO  c.h.v.VideotranslationApplication - Started VideotranslationApplication in 3.5 seconds (process running for 4.418)
+2025-01-04 20:44:29 [RMI TCP Connection(2)-192.168.1.45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-04 20:44:29 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-04 20:44:29 [RMI TCP Connection(2)-192.168.1.45] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-04 21:02:02 [http-nio-8080-exec-4] INFO  c.h.v.controller.StatusController - 
+Initial status
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1054s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1054s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1054s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1054s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1054s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-04 21:02:07 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After processing julie1.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1059s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1059s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1059s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1059s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1059s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-04 21:02:12 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After processing julie2.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1064s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1064s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1064s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1064s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1064s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-04 21:02:17 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After processing julie3.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1069s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1069s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1069s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1069s", remainingTime: "N/A", totalTime: "N/A"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1069s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-04 21:02:22 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After processing julie4.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1074s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1074s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1074s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1074s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "In queue", message: "Video is in queue for processing.", percentage: "0", elapsedTime: "1074s", remainingTime: "N/A", totalTime: "N/A"
+============================================================
+
+2025-01-04 21:02:27 [Thread-7] INFO  c.h.v.controller.StatusController - 
+After processing julie5.mp4
+====================VideoSet============================
+videoName: "julie1.mp4", videoLanguage: "en-US", translateTo: "espanol", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1079s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie2.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1079s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie3.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1079s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie4.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1079s", remainingTime: "0s", totalTime: "120s"
+videoName: "julie5.mp4", videoLanguage: "en-US", translateTo: "hindi", result: "completed", message: "Processing complete!", percentage: "100", elapsedTime: "1079s", remainingTime: "0s", totalTime: "120s"
+============================================================
+

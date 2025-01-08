@@ -1,0 +1,20 @@
+<configuration>
+    <appender name="TRANSLATION_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/translation-status.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/translation-status.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.heygen.videotranslation" level="INFO" additivity="false">
+        <appender-ref ref="TRANSLATION_LOG" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="TRANSLATION_LOG" />
+    </root>
+</configuration>
